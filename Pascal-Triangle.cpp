@@ -5,6 +5,7 @@ vector<vector<long long int>> printPascal(int n)
   // Write your code here.
   // starting and last element will be always 1
   // arr[row][col]=arr[row-1][col-1]+arr[row-1][col]
+  // O(N^2) Space Complexity
     vector<vector<long long int>> printPascal;
     for(int row=0;row<n;row++)
     {
